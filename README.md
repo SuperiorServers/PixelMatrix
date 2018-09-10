@@ -1,0 +1,1 @@
+Drag a png file onto PixelMatrix.exe

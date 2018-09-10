@@ -1,0 +1,11 @@
+Filter
+{
+	"Height" "_WIDTH_"
+	"Width" "_HEIGHT_"
+	"FilterType" "FILTER_ADD"
+	"IconName" "_ICON_NAME_"
+	Image
+	{
+_ROWS_
+	}
+}
