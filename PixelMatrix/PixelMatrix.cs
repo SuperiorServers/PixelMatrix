@@ -65,7 +65,7 @@ namespace PixelMatrix
 
             File.WriteAllText(txt, output.Replace("_WIDTH_", Width.ToString())
                 .Replace("_HEIGHT_", Height.ToString())
-                .Replace("_ICON_NAME_", ico)
+                .Replace("_ICON_NAME_", SourceFile.Name.Replace(SourceFile.Extension, ".ico"))
                 .Replace("_ROWS_", Rows)
             );
 
